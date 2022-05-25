@@ -1,12 +1,15 @@
 import { Fragment } from "react";
 
 function App() {
-  const name = "mitzbarbie";
-  return (
-    <Fragment>
-      <h1>hallo {name}!</h1>
-    </Fragment>
-  );
+  const name = "hallo";
+  const style = {
+    backgroundColor: "black",
+    color: "purple",
+    fontSize: "32px",
+    fontWeight: "bold",
+    padding: 16,
+  };
+  return <div style={style}>{name}</div>;
 }
 
 export default App;
