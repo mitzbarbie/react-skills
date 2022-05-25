@@ -1,15 +1,13 @@
 import { Fragment } from "react";
+import "./App.css";
 
 function App() {
   const name = "hallo";
-  const style = {
-    backgroundColor: "black",
-    color: "purple",
-    fontSize: "32px",
-    fontWeight: "bold",
-    padding: 16,
-  };
-  return <div style={style}>{name}</div>;
+  return (
+    <div className="test">
+      {name} {/*ddd*/}dddd /*ddd */ //dddd
+    </div>
+  );
 }
 
 export default App;
