@@ -5,8 +5,8 @@ function App() {
   const name = "hallo";
   return (
     <div className="test">
-      {name} {/*ddd*/}dddd /*ddd */ //dddd
-      <MyComponent name="David" />
+      test : {name} {/*ddd*/}dddd /*ddd */ //dddd
+      <MyComponent>Mitz and Barbie</MyComponent>
     </div>
   );
 }
