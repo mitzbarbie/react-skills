@@ -1,5 +1,6 @@
 import "./App.css";
 import MyComponent from "./component/MyComponent";
+import Say from "./component/Say";
 
 function App() {
   const name = "hallo";
@@ -9,6 +10,7 @@ function App() {
       <MyComponent name="halo" favoriteNumber={7}>
         Mitz and Barbie
       </MyComponent>
+      <Say />
     </div>
   );
 }
