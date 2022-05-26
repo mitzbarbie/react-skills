@@ -1,5 +1,5 @@
-const MyComponent = () => {
-  return <div>hallo this is MyComponent</div>;
+const MyComponent = (props) => {
+  return <div>hallo this is {props.name}!</div>;
 };
 
 export default MyComponent;
