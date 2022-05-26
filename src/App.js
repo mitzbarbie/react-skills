@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="test">
       test : {name} {/*ddd*/}dddd /*ddd */ //dddd
-      <MyComponent>Mitz and Barbie</MyComponent>
+      <MyComponent name="halo" favoriteNumber={7}>
+        Mitz and Barbie
+      </MyComponent>
     </div>
   );
 }
