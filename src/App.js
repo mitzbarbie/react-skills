@@ -1,4 +1,5 @@
 import "./App.css";
+import ChildrenDetail from "./component/ChildrenDetail";
 import MyComponent from "./component/MyComponent";
 import Say from "./component/Say";
 
@@ -11,6 +12,7 @@ function App() {
         Mitz and Barbie
       </MyComponent>
       <Say />
+      <ChildrenDetail />
     </div>
   );
 }
