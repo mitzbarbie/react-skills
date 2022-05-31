@@ -2,6 +2,7 @@ import "./App.css";
 import ChildrenDetail from "./component/ChildrenDetail";
 import MyComponent from "./component/MyComponent";
 import Say from "./component/Say";
+import EventPractice from "./component/EventPractice";
 
 function App() {
   const name = "hallo";
@@ -13,6 +14,7 @@ function App() {
       </MyComponent>
       <Say />
       <ChildrenDetail />
+      <EventPractice />
     </div>
   );
 }
